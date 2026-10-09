@@ -1,0 +1,71 @@
+{
+  "version": "2",
+  "flowTitle": "Job Status Monitor",
+  "trigger": {
+    "valid": false,
+    "displayName": "Training Job Status Changed",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.custom_attribute_updated",
+      "input": {
+        "fieldId": "@jstat",
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "WirXNay4JD8ALi65"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "d8e9f0a1-b2c3-4567-defa-123456780025",
+      "valid": false,
+      "displayName": "Log to Activity Feed",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@a_ts": {
+              "data": {
+                "value": "{{ trigger[\"triggerTime\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@a_ts"
+            },
+            "@atype": {
+              "data": {
+                "value": "opt-update"
+              },
+              "rank": "0",
+              "fieldId": "@atype"
+            }
+          },
+          "content": "🔄 Job Update: {{ trigger[\"nodeText\"] }} — Status changed to {{ trigger[\"WirXNay4JD8ALi65/fields/@jstat\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "hSTdsinTEb8ZZxNV"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "WirXNay4JD8ALi65": {
+      "id": "WirXNay4JD8ALi65",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "hSTdsinTEb8ZZxNV": {
+      "id": "hSTdsinTEb8ZZxNV",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

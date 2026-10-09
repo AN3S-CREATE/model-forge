@@ -1,0 +1,76 @@
+{
+  "version": "2",
+  "flowTitle": "Daily Model Digest",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Day at 9 AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Africa/Johannesburg",
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a5b6c7d8-e9f0-1234-abcd-ef12345678022",
+      "valid": true,
+      "displayName": "Generate Daily Summary",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "prompt": "You are a model training analyst. Generate a concise daily summary of AI model training activity. Cover: active training jobs, recently completed models with their accuracy scores, and any notable trends. Keep it under 3 paragraphs. Use the current date: {{ trigger[\"triggerTime\"] }}."
+        }
+      }
+    },
+    {
+      "name": "c7d8e9f0-a1b2-3456-cdef-123456780024",
+      "valid": false,
+      "displayName": "Post to Activity Feed",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@a_ts": {
+              "data": {
+                "value": "{{ trigger[\"triggerTime\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@a_ts"
+            },
+            "@atype": {
+              "data": {
+                "value": "opt-digest"
+              },
+              "rank": "0",
+              "fieldId": "@atype"
+            }
+          },
+          "content": "📊 Daily Digest — {{ trigger[\"triggerTime\"] }}\n\n{{ a5b6c7d8-e9f0-1234-abcd-ef12345678022[\"result\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "hSTdsinTEb8ZZxNV"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "hSTdsinTEb8ZZxNV": {
+      "id": "hSTdsinTEb8ZZxNV",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

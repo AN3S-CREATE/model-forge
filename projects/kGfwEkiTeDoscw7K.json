@@ -1,0 +1,1733 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "754bbdc8-2fef-4d83-8b12-8349969119b2",
+        "text": {
+          "ops": [
+            {
+              "insert": "TASKS.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "ae3ab395-738b-403c-bce1-0dea3ec219a4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d2ba11c7-ab55-45ce-89ca-b9f8229b9461",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01 07:21 UTC - Build completed: 2 steps done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "8ddc8234-f179-4414-9027-8f17c459c73f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Build completed: 2 steps done",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d2e99155-1229-44ed-a8f9-d15787ceaaaa",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Steps completed:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "89f1c580-448e-4dbb-8236-f453c02d3e9b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Verify theme-conditional logos in Layout, Landing, and branding config",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "3dddfda1-6b87-4f8a-aa90-93a8bb4fe8cd",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Verify build compiles and renders cleanly",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "583d0ecb-11d3-4076-be33-f2e37cdbc028",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Activity Feed",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/hSTdsinTEb8ZZxNV"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Model Metrics",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/hxhWWdC8bAKDmXhT"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Training Jobs",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/WirXNay4JD8ALi65"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Models Registry",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/XEb8mExJJhfZxJ7d"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Datasets Registry",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/VLnGzGeB9FZtxX8g"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "cb4eaa82-5739-4962-b294-3ef72aa8d39d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agents: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Training Coach",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KYY1CV159NW3VPVG2KCJ91TK"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Platform Assistant",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KYY1CV13H9ZDVDPV6Z9BH8PH"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "2379b751-36d9-4654-8551-c050fa758524",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Job Status Monitor",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KYY1MAAWBE8YEAQB5FXPCB1F"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Daily Model Digest",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KYY1ENTPK9NPT52FX0JY9785"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "1282e208-0b66-4dd0-aa30-cbb4e07d6689",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01 07:11 UTC - Primary Request and Intent",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "2516cdd0-a9ea-4aad-9556-1f6599090961",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Primary Request and Intent:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "67f6a869-82cc-454f-bc31-0af27db34a4c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "The user's overarching goal is to design and build a complete ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "AI Model Training Platform",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " using Taskade's Genesis ecosystem. The explicit initial request had several components:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d067e700-e205-491a-80db-049ed9959bd2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Workspace (Backend)",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": Data storage via Projects, AI Agents for intelligence, Automation Flows for UI-triggered automations",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "6f63b33e-7c14-46df-b511-297ea92da27a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "App (Frontend)",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": React + TailwindCSS with strict design system (Dark theme #090909 background, Light theme #F7F7F5, lime accent #B3DD49, SF Pro stack, industrial professional aesthetic)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b96b5320-61b6-41bb-b3be-a754777d3635",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Pages",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": Landing, Dashboard, Data Upload, Model Training, Model Management, Settings",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "546a9d9a-f762-440e-b42f-263063660892",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Specific Motion",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": CTA hover glow, click particle burst, card hover lift, scroll fade",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a7304a7f-9c13-491e-809c-0ead1372d125",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "More recent requests",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " included:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "ce53bf69-098f-48fd-8923-01c8663c057b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Adding a form-based model training config page that creates new training jobs via the genesis-data SDK (completed)",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "number",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c7686185-1487-4cf8-83f0-ae6d8e2fe0ba",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Rebranding the platform to ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\"Neurologix AI\"",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " using uploaded logo assets, with explicit instruction: ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\"Attach this to the logos of this main model. The main training AI is Neurologix AI. So, here are the Falcon icons: a dark logo for the light version and a light logo for the dark version of the site.\"",
+                              "attributes": {
+                                "italic": true
+                              }
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "number",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "3f475e97-5884-4af4-8bd0-a1ab6cfe650d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Files and Code Sections:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d63fcdcc-3d41-4df9-a6af-807fe57cb490",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "/app/src/config/branding.ts",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " (NEW - most important recent) export const BRAND = {   name: 'Neurologix',   tagline: 'AI Model Training Platform',   fullName: 'Neurologix AI', } as const; export const LOGOS = {   icon: 'https://files.taskade.com/space-files/52777ea2-2ff6-45c9-98e8-744a8173829e/original/neurologix_logo_icon.png',   falcon: 'https://files.taskade.com/space-files/aa001863-5cd9-45c6-ad6d-89c13ccabdcd/original/neurologix_logo_falcon.png',   dark: 'https://files.taskade.com/space-files/f78769a0-5620-4adb-bd78-a171a4d2537c/original/neurologix_logo_dark.png',   light: 'https://files.taskade.com/space-files/a6c68edf-e2db-471e-b552-c940557aa41d/original/neurologix_logo_light.png', } as const;",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "07d660d7-c191-4383-a12a-15cf84d313ee",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Created to centralize branding constants",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "f5ad6ab6-cc3f-48af-bd9a-ee74e1034963",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "/app/src/config/projects.ts",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " - Project IDs export const DATASETS_PROJECT_ID = 'VLnGzGeB9FZtxX8g'; export const MODELS_PROJECT_ID = 'XEb8mExJJhfZxJ7d'; export const JOBS_PROJECT_ID = 'WirXNay4JD8ALi65'; export const METRICS_PROJECT_ID = 'hxhWWdC8bAKDmXhT'; export const ACTIVITY_PROJECT_ID = 'hSTdsinTEb8ZZxNV';",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "74b2f11f-ab4e-4cb1-b773-dad6b57bac5c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "/app/src/config/agent.ts",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " export const PLATFORM_ASSISTANT_ID = '01KYY1CV13H9ZDVDPV6Z9BH8PH'; export const PLATFORM_ASSISTANT_PUBLIC_ID = '01KYY1CV1CA88P72AANNEW8455';",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "86f16ba9-966f-40bc-94ac-8080c3bd4a08",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "/app/src/components/Layout.tsx",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " - Modified for branding; sidebar logo replaced <Cpu> icon with <img src={LOGOS.icon} ...> <div className=\"h-7 w-7 rounded-md bg-background flex items-center justify-center shrink-0 overflow-hidden\">   <img src={LOGOS.icon} alt={BRAND.name} className=\"h-6 w-6 object-contain\" /> </div> <span className=\"font-semibold text-sm tracking-tight\">{BRAND.name}</span> Also updated mobile header and mobile drawer to use icon + brand name.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "14bae2aa-167b-4eee-a2db-e78e2803fac0",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "/app/src/App.tsx",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": " - Router setup with 6 routes, all wrapped in GenesisSection. document.title updated to \"Neurologix — AI Model Training Platform\"",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "342a8b64-662f-4011-88b3-92bb7c9bddc6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "truncated -",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "312856b4-9e4e-4f56-983e-74838d25070a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01 07:05 UTC - Build completed: 11 steps done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "e4240d09-7711-48e7-affa-01492a4598c2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Build completed: 11 steps done",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "4cd1a2d6-a57c-46f5-bd05-f8b377d08383",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Steps completed:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "dc9cc70a-a64a-44dc-8440-60e6b36d710a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Create Projects: Datasets, Models, ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Training Jobs",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/WirXNay4JD8ALi65"
+                              }
+                            },
+                            {
+                              "insert": ", ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Model Metrics",
+                              "attributes": {
+                                "link": "https://www.taskade.com/d/hxhWWdC8bAKDmXhT"
+                              }
+                            },
+                            {
+                              "insert": " with custom fields",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f4a284f9-6e89-4c83-ab5d-60e463898730",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Create AI Agents: ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Training Coach",
+                              "attributes": {
+                                "link": "https://www.taskade.com/agent/01KYY1CV159NW3VPVG2KCJ91TK"
+                              }
+                            },
+                            {
+                              "insert": " and ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Platform Assistant",
+                              "attributes": {
+                                "link": "https://www.taskade.com/agent/01KYY1CV13H9ZDVDPV6Z9BH8PH"
+                              }
+                            },
+                            {
+                              "insert": ", connect knowledge",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "085546b5-7e4e-4bc2-844c-97dfb3c4c7d3",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Create Automation Flows: ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Daily Model Digest",
+                              "attributes": {
+                                "link": "https://www.taskade.com/flows/01KYY1ENTPK9NPT52FX0JY9785"
+                              }
+                            },
+                            {
+                              "insert": " and ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "Job Status Monitor",
+                              "attributes": {
+                                "link": "https://www.taskade.com/flows/01KYY1MAAWBE8YEAQB5FXPCB1F"
+                              }
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "d04230da-c495-447e-ad7f-866c76036339",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Set up design tokens in index.css (dark theme, light theme, CSS variables)",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "3010be9e-ec68-4e51-9291-0ea28153409f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Build Landing page with Hero, feature cards, CTA",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "8029f033-c154-4192-ad74-0edd206121ab",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Build Dashboard page with stats, active jobs, metric charts",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "5c72d39f-46b0-44a9-b33b-ae6876cb2c50",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Build Data Upload page with drag-and-drop and preview",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e2f3d609-28ad-4da0-a10b-8929103ac226",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Build Model Training page with config form and progress",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "a8e4a663-7d19-4f28-b24c-1e1a2ca7a076",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "and 3 more",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "69df5947-a496-4768-bd2f-3b0be655ef60",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Activity Feed",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/hSTdsinTEb8ZZxNV"
+                          }
+                        },
+                        {
+                          "insert": ", Model Metrics, Training Jobs, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Models Registry",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/XEb8mExJJhfZxJ7d"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Datasets Registry",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/VLnGzGeB9FZtxX8g"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "3f6e5e41-a638-480b-8e76-f9052a0dd42a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agents: Training Coach, Platform Assistant",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "89d798c8-823f-47c6-8c52-47272660b01f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows: Job Status Monitor, Daily Model Digest",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "4811cae6-162f-45d9-b4c7-183d3c824513",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Knowledge",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "461a2012-8bdb-4faf-b3cd-50491ca20592",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01 07:11 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "03b1cb49-d902-4797-8fdf-746d0c42ddcb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "524b09c8-61c0-4b89-a323-788bac1d507d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade Genesis App architecture (React + TailwindCSS v3, next-themes)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a1937f1c-23e2-493b-93b6-e5ccb8642f3c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade Genesis Data SDK (genesis-data): getNodes, createNode, updateNode, deleteNode, getFieldValue, getFieldNumber, getTitle",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "6f2f43db-8842-47e1-9d68-1dd48b413a1b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Genesis Root + ThemeGate pre-mounted ThemeProvider (attribute=\"class\")",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ebfdc6eb-cc78-4c7a-bbe7-14da751058bf",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "GenesisSection for fault isolation",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a7222bf7-6b01-4a42-9b5b-b7a58fcc234f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "React Router + lazy-loaded pages + Suspense",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "2b57fd4a-3a5d-4fb8-9b39-4b8efc4eada9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "FloatingAgentChat block (requires agentId + publicAgentId)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b24a9ace-bbbb-47f1-a11a-a5136b28de3a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade Projects with custom fields (select, number, string, datetime)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "49d4ecfb-ba9e-49a2-8f00-aa619967ff51",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade AI Agents (public/private) with knowledge source connections",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "cb9aebc3-82ad-4ce6-8012-9d7f93eea290",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade Automations (schedule.daily trigger, task.create action, custom_attribute_updated trigger)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "99ff1f03-e9e1-4858-a894-33206dbc9aab",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Custom CSS design tokens (HSL variables) in both light/dark themes",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e9bb22ad-922d-48c8-aa89-9bfea23adf91",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Framer Motion for animations",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "844dae27-ca91-4274-9451-63336673cf09",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Taskade custom field IDs (@jstat, @jprog, etc.)",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📄"
+    },
+    "coverImageType": "background",
+    "background": {
+      "data": {
+        "value": "bg-random"
+      },
+      "type": "default"
+    }
+  },
+  "pinnedAt": "2026-08-01T06:42:40.980Z"
+}

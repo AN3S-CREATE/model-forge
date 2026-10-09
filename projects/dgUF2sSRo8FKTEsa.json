@@ -1,0 +1,288 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "c4d5e6f7-a8b9-0123-cdef-123456780018",
+        "text": {
+          "ops": [
+            {
+              "insert": "TASKS.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a1b2c3d4-5678-90ab-cdef-1234567890ab",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Rebranded app to Neurologix AI: updated branding.ts with LOGOS.forLight/forDark (dark logo for light theme, light logo for dark), updated Layout.tsx sidebar/mobile header/mobile drawer with theme-conditional icon logos using Tailwind dark:hidden/dark:block, updated Landing.tsx hero badge and CTA section with theme-conditional logos. Also updated App.tsx document.title and Settings.tsx platform name.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d4e5f6a7-b8c9-0123-defa-123456780019",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "f7a8b9c0-d1e2-3456-abcd-ef1234567832",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01: Added form-based training job creation to ModelTraining page — expandable form with dataset picker, model quick-select, hyperparameter inputs, validation, and createNode persistence.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "18bee142-2423-43aa-bde7-2280f8d2b469",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-08-01: Built complete AI Model Training Platform. Created 5 projects with sample data, 2 AI agents with knowledge connections, 2 enabled automation flows, and a 6-page React app with dark/light theme support.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e4f5a6b7-c8d9-0123-efab-123456780020",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Knowledge",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "f5a6b7c8-d9e0-1234-abcd-ef1234567826",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Project IDs: Datasets=VLnGzGeB9FZtxX8g, Models=XEb8mExJJhfZxJ7d, Jobs=WirXNay4JD8ALi65, Metrics=hxhWWdC8bAKDmXhT, Activity=hSTdsinTEb8ZZxNV",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1a421294-7932-4ea5-a6d7-48d530abd350",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Agent IDs: Platform Assistant=01KYY1CV13H9ZDVDPV6Z9BH8PH (public, /a/01KYY1CV1CA88P72AANNEW8455), Training Coach=01KYY1CV159NW3VPVG2KCJ91TK (private)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6c7d8e9-f0a1-2345-cdef-123456780028",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Flow IDs: Daily Model Digest=01KYY1ENTPK9NPT52FX0JY9785 (enabled, schedule.daily @ 9AM), Job Status Monitor=01KYY1MAAWBE8YEAQB5FXPCB1F (enabled, @jstat changes)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c6d7e8f9-a0b1-2345-defa-123456780029",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Design: Dark bg hsl(0 0% 4%) ~#090909, Light bg hsl(60 13% 96%) ~#F7F7F5, Accent hsl(78 68% 58%) ~#B3DD49",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d6e7f8a9-b0c1-2345-efab-123456780030",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "App scaffold has FloatingAgentChat block, genesis-data SDK, genesis-flows SDK, ThemeProvider pre-mounted. Uses React Router with lazy-loaded pages and GenesisSection fault isolation.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔬"
+    }
+  }
+}
